@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: #f6fafc;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
@@ -8,9 +7,39 @@ body {
     color: #222323;
     justify-content: center;
     align-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+img {
+    width: 100%;
+    align-self: center;
+}
+
+.card {
+    width: 300px;
+    color: white;
+    background-color: #222323;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#card-left {
+    background-color: #70A8C8;
+    margin-left: -400px;
+}
+
+#card-right {
+    background-color: #FFBF00;
+    margin-left: 400px;
 }
