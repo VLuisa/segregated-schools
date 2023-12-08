@@ -9,6 +9,41 @@
 </head>
 
 <body>
+    <main>
+        <section id="intro">
+            <h1 class="intro__hed">Sticky Overlay Example</h1>
+            <p class="intro__dek">Start scrolling to see how it works.</p>
+        </section>
+
+        <section id="scrolly">
+            <figure>
+                <img src="img1.png" width="100%" />
+            </figure>
+
+            <article>
+                <div class="step is-active" data-step="1">
+                    <p>1. Meet Quinn and Vera. They're both 5th graders at different elementary schools and we're going
+                        to
+                        follow
+                        them through a day at school.</p>
+                </div>
+                <div class="step" data-step="1">
+                    <p>2. Quinn and Vera arrive at school in the morning.</p>
+                </div>
+                <div class="step" data-step="2">
+                    <p>3. Quinn is greeted by the assistant principal as he arrives.</p>
+                </div>
+                <div class="step" data-step="3">
+                    <p>4. Vera chats with her friend as she
+                        heads in; a security guard watches students arrive.</p>
+                </div>
+                <div class="step" data-step="4">
+                    <p>STEP 4</p>
+                </div>
+            </article>
+        </section>
+        <section id="outro"></section>
+    </main>
     <div class="container">
         <h1>Divided Schools</h1>
         <p>School administrative boundaries define the educational opportunities that students have from Kindergarten
@@ -64,8 +99,13 @@
             style="width: 0; min-width: 100% !important; border: none;" height="622" data-external="1"></iframe>
 
     </div>
+
+
     <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
     </script>
+    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
