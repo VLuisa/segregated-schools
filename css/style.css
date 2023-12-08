@@ -55,9 +55,11 @@ body {
 /* SCROLLY STUFF */
 #scrolly {
     margin: 0;
+    margin-top: 10rem;
     position: relative;
     display: flex;
     flex-flow: column nowrap;
+    background-color: #f6fafc;
 }
 
 article {
@@ -105,5 +107,10 @@ figure img {
 .step p {
     margin: 1rem;
     font-size: 1rem;
-    width: 30vw;
+    max-width: 300px;
+}
+
+#intro {
+    padding: 10rem 20rem 10rem 20rem;
+    max-width: 40vw;
 }
