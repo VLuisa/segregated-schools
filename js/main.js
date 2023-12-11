@@ -11,7 +11,7 @@
       // generic window resize listener event
       function handleResize() {
         // 1. update height of step elements
-        var stepH = Math.floor(window.innerHeight * 0.2);
+        var stepH = Math.floor(window.innerHeight * 0.9);
         step.style("height", stepH + "px");
 
         var figureHeight = window.innerHeight / 2;

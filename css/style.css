@@ -32,6 +32,11 @@ p {
     border-radius: 4px;
 }
 
+#card-center em {
+    font-size: 1.2em;
+    color: #FF4588;
+}
+
 #card-left {
     background-color: #bfddf0;
     margin-left: -32rem;
@@ -142,6 +147,7 @@ main {
 #intro img {
     width: 150%;
     margin-left: -25%;
+    margin-bottom: 15vh;
 }
 
 #conclusion {
