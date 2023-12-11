@@ -36,12 +36,12 @@
         });
 
         // update graphic based on step
-        if (response.index <= 1) {
-          figure.select("img").attr("src", `img1.png`);
-        } else if (response.index == 2) {
-          figure.select("img").attr("src", `img2.png`);
-        } else if (response.index >= 3) {
-          figure.select("img").attr("src", `img3.png`);
+        if (response.index < 1) {
+          figure.select("img").attr("src", `images/the two kids.png`);
+        } else if (response.index == 1 | response.index == 2 || response.index == 3) {
+          figure.select("img").attr("src", `images/img2.png`);
+        } else if (response.index > 3) {
+          figure.select("img").attr("src", `images/img3.png`);
         }
       }
 

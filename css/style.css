@@ -27,25 +27,31 @@ p {
 }
 
 #card-center {
-    background-color: #d6dfe3;
+    background-color: rgb(244, 244, 244);
     padding: 1rem;
     border-radius: 4px;
 }
 
 #card-left {
-    background-color: #a5cde5;
-    margin-left: -400px;
+    background-color: #bfddf0;
+    margin-left: -32rem;
     padding: 1rem;
     border-radius: 4px;
     max-width: 300px;
 }
 
 #card-right {
-    background-color: #ffd965;
-    margin-right: -400px;
+    background-color: #f9e198;
+    margin-right: -32rem;
     padding: 1rem;
     border-radius: 4px;
     max-width: 300px;
+}
+
+#card-left,
+#card-center,
+#card-right {
+    border: 2px #222323 solid;
 }
 
 iframe {
@@ -85,12 +91,13 @@ figure {
 }
 
 figure img {
-    height: 100%;
+    height: 100vh;
     width: auto;
     justify-content: center;
     align-self: center;
     z-index: 0;
     margin: 0;
+    margin-top: -15rem;
 }
 
 .step {
@@ -128,4 +135,8 @@ main {
 
 #intro h1 {
     font-size: 4rem;
+}
+
+#intro img {
+    width: 100%;
 }
