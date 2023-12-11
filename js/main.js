@@ -36,13 +36,25 @@
         });
 
         // update graphic based on step
-        if (response.index < 1) {
-          figure.select("img").attr("src", `images/the two kids.png`);
-        } else if (response.index == 1 | response.index == 2 || response.index == 3) {
+        if (response.index == 0 | response.index == 1) {
+          figure.select("img").attr("src", `images/img1.png`);
+        } else if (response.index == 2 || response.index == 3) {
           figure.select("img").attr("src", `images/img2.png`);
-        } else if (response.index > 3) {
+        } else if (response.index >= 4 && response.index <= 7) {
           figure.select("img").attr("src", `images/img3.png`);
-        }
+        } else if (response.index == 8 || response.index == 9) {
+            figure.select("img").attr("src", "images/img4.png")
+        } else if (response.index >= 10 && response.index <= 13) {
+            figure.select("img").attr("src", "images/img5.png")
+        } else if (response.index == 14) {
+            figure.select("img").attr("src", "images/img6.png")
+        } else if (response.index == 15) {
+            figure.select("img").attr("src", "images/img7.png")
+        } else if (response.index == 16) {
+            figure.select("img").attr("src", "images/img8.png")
+        } else if (response.index == 17) {
+            figure.select("img").attr("src", "images/img9.png")
+        } 
       }
 
       function init() {

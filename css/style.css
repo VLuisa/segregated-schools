@@ -27,7 +27,7 @@ p {
 }
 
 #card-center {
-    background-color: rgb(244, 244, 244);
+    background-color: #f6fafc;
     padding: 1rem;
     border-radius: 4px;
 }
@@ -101,7 +101,7 @@ figure img {
 }
 
 .step {
-    margin: 0 auto 50rem auto;
+    margin: 0 auto 40rem auto;
     color: rgb(42, 42, 42);
     display: flex;
     align-items: center;
@@ -124,6 +124,7 @@ main {
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
+    margin-bottom: 20rem;
 }
 
 #intro {
@@ -131,6 +132,7 @@ main {
     justify-content: center;
     margin: auto;
     margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 #intro h1 {
@@ -138,5 +140,28 @@ main {
 }
 
 #intro img {
-    width: 100%;
+    width: 150%;
+    margin-left: -25%;
+}
+
+#conclusion {
+    background-color: #65737a;
+    color: #f6fafc;
+}
+
+#conclusion-body {
+    max-width: 40vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+a {
+    color: #bfddf0;
+}
+
+a:visited {
+    color: #6dc7ff;
 }
