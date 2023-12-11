@@ -32,7 +32,7 @@ p {
     border-radius: 4px;
 }
 
-#card-center em {
+#card-center b {
     font-size: 1.2em;
     color: #FF4588;
 }
@@ -151,7 +151,7 @@ main {
 }
 
 #conclusion {
-    background-color: #65737a;
+    background-color: #0f4366;
     color: #f6fafc;
 }
 
