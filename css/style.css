@@ -95,13 +95,13 @@ figure {
 }
 
 figure img {
-    height: 100vh;
+    height: 110vh;
     width: auto;
     /* justify-content: center;
     align-self: center; */
     z-index: 0;
     margin: 0;
-    margin-top: -30%;
+    margin-top: -30vh;
 }
 
 .step {
